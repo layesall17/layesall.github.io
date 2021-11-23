@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@1 500 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@1 500 &family= Playfair+Display:ital,wght@1 500 & display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospaces;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;border-bottom :5px solid ;
+}
+nav h1{
+    color: silver;
+    font-family: Open+Sans:ital,wght@1 500 & display=swap ;
+    font-size : 30px
+
+
+}
+nav .onglets {
+margin-top: 3px;
+margin-left: 300px;
+}
+nav .onglet a{ 
+    text-decoration: none;
+    color: slategrey;
+    margin-right: 10px;
+    border-bottom :1px solid;
+    padding: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background :url('r.jpg');
+
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left {
+    flex: 0 0 70%;
+    padding: 20px;
+    background-color: black;color:rgb(255, 248, 248) ;
+}
+.main .content .card .right img { 
+    height: 300px;
+    width: 400PX;
+    margin-top: 5px;
+}
+footer { 
+    margin-left: 0px;
+    margin-bottom: 20px;
+    flex: 0 0 50%;
+    padding: 40px;
+    background-color: black;color:rgb(255, 248, 248) ;
+    font-family: 'Courier New', Courier, monospaces
+}  
+footer h1 {
+    border-bottom: 1px solid #fff;
+    width: 20%;
+}
+footer .services .service{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service p{
+    max-width: 300px;
+}

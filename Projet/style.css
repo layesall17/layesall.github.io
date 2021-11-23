@@ -1,0 +1,29 @@
+
+p, li {
+    color: green;
+}
+li {
+    list-style-type: none;
+}
+.special {
+    color: orange;
+    font-weight: bold;
+}
+main {
+      box-shadow: 30px 0px 40px rgb(196, 196 , 196) ,-30px 0px 40px rgb(196, 196 , 196)
+    
+}body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;border: thick double #32a1ce;/* style */
+    border: solid;/* largeur | style */
+    border: 2px dotted;
+} 
+ul img { 
+    height: 10px;width: 10px;
+}
+.head .header .img { 
+    height: 10px;
+    width: 10PX;
+    margin-top: 3px;
+}
